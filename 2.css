@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.facility {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.facility img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.facility h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #0056b3;
+}
+
+.facility p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #666;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1340px;
+    backface-visibility: hidden;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 100px;
+    margin-right: px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    margin-right: 20px;
+    position: relative;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #fff2f2;
+    box-shadow: 0 2px 4px rgba(255, 253, 253, 0.1);
+    list-style: none;
+    padding: 10px;
+}
+nav ul li:hover ul {
+    display: block;
+
+}
+nav ul li ul :hover{
+    color: #479aff;
+}
+nav ul li ul li {
+    margin-right: 0;
+    color: #479aff;
+}
+nav ul li ul li a {
+    display: block;
+    padding: 5px 10px;
+    color: #030404;
+    font-size: 15px;
+}
+.join-us {
+    background-color: #479aff;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #000000;
+    color: #fffcfc;
+    padding: 50px 0;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+footer p, footer a {
+    color: #fff3f3;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.get-in-touch, .quick-links, .photo-gallery, .newsletter {
+    flex: 1 1 200px;
+    margin-bottom: 20px;
+}
+
+.social-media a {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-links ul li a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.photo-gallery .gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo-gallery .gallery img {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    object-fit: cover;
+}
+
+.newsletter form {
+    display: flex;
+}
+
+.newsletter input[type="email"] {
+    padding: 0px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.newsletter .submit {
+    background-color: #479aff;
+    padding: 10px;
+    border-radius: 0px 5px 5px 0px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #686767;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+.grid{
+    display: grid;
+    background-color: #fcfcfc;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: #000000;
+}
+.cartoon{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+   max-width:300px;
+    text-align: center;
+    font-size: 15px;
+    transition: transform 0.3s ease;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+.cartoon:hover{
+    transform: translateY(-15px);
+}
+.grid:hover > :not(:hover){
+    opacity: 0.5;
+}
